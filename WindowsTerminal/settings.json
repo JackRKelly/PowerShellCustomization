@@ -42,40 +42,17 @@
     },
     "list": [
       {
-        "commandline": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+        "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
-        "icon": "D:\\OhMyPosh\\icons8-powershell-96-red.png",
         "name": "PowerShell",
         "source": "Windows.Terminal.PowershellCore"
-      },
-      {
-        "commandline": "powershell.exe",
-        "font": {
-          "face": "monoMMM_5"
-        },
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "hidden": false,
-        "name": "PowerShell 5.1"
       },
       {
         "commandline": "cmd.exe",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "hidden": false,
         "name": "Command Prompt"
-      },
-      {
-        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-        "hidden": false,
-        "name": "Ubuntu-20.04",
-        "source": "Windows.Terminal.Wsl"
-      },
-      {
-        "commandline": "powershell.exe Start-Process -Verb RunAs wt",
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44ba}",
-        "hidden": false,
-        "icon": "\ud83d\udd11",
-        "name": "PowerShell Admin"
       }
     ]
   },
