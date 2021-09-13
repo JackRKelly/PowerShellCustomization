@@ -53,16 +53,6 @@
           "properties": {
             "prefix": " \uE718 "
           }
-        },
-        {
-          "type": "time",
-          "style": "diamond",
-          "trailing_diamond": "\uE0B0",
-          "foreground": "#ffffff",
-          "background": "#33658A",
-          "properties": {
-            "time_format": "15:04"
-          }
         }
       ]
     },
