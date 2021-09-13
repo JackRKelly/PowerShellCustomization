@@ -21,6 +21,8 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/JackRKelly/PowerShellC
 
 Set-PoshPrompt -Theme "~/.config/ohmyposh/jakelly.omp.json"
 
-Get-Content -path "./profile.ps1" | Set-Content -path $PROFILE
+$root = git rev-parse --show-toplevel
+
+Get-Content -path "${root}/PowerShell/profile.ps1" | Set-Content -path $PROFILE
 
 echo "Initialization has completed!"
