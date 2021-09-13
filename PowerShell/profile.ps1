@@ -13,4 +13,3 @@ Set-Alias winfetch pwshfetch-test-1
 $Global:GetChildItemColorVerticalSpace = 1
 
 cls
-winfetch
