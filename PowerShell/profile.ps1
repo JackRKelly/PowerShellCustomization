@@ -1,7 +1,6 @@
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module Terminal-Icons
-Import-Module winfetch
 
 Set-PoshPrompt -Theme "~/.config/ohmyposh/jakelly.omp.json"
 
