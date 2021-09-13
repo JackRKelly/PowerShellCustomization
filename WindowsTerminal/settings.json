@@ -45,6 +45,7 @@
         "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
+        "icon": "D:\\PowerShellCustomization\\assets\\icons8-powershell-96-red.png",
         "name": "PowerShell",
         "source": "Windows.Terminal.PowershellCore"
       },
