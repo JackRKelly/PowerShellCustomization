@@ -17,7 +17,7 @@ Set-Alias winfetch pwshfetch-test-1
 
 New-Item -ItemType Directory -Force -Path ~/.config/ohmyposh
 
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/JackRKelly/PowerShellCustomization/master/OhMyPosh/config.json?token=AKG6HW5CXGMACA3PFDIUGHLBJC4CE" -OutFile ~/.config/ohmyposh/jakelly.omp.json
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/JackRKelly/PowerShellCustomization/master/OhMyPosh/config.json" -OutFile ~/.config/ohmyposh/jakelly.omp.json
 
 Set-PoshPrompt -Theme "~/.config/ohmyposh/jakelly.omp.json"
 
