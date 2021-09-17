@@ -1,21 +1,9 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
-    {
-      "command": {
-        "action": "copy",
-        "singleLine": false
-      },
-      "keys": "ctrl+c"
-    },
-    {
-      "command": "paste",
-      "keys": "ctrl+v"
-    },
-    {
-      "command": "find",
-      "keys": "ctrl+shift+f"
-    },
+    { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+    { "command": "paste", "keys": "ctrl+v" },
+    { "command": "find", "keys": "ctrl+shift+f" },
     {
       "command": {
         "action": "splitPane",
@@ -35,17 +23,15 @@
       "colorScheme": "GitHub Dark",
       "cursorShape": "underscore",
       "experimental.retroTerminalEffect": false,
-      "font": {
-        "face": "CaskaydiaCove NF"
-      },
+      "font": { "face": "CaskaydiaCove NF" },
       "useAcrylic": true
     },
     "list": [
       {
-        "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "commandline": "C:/Program Files/PowerShell/7/pwsh.exe",
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
-        "icon": "D:\\PowerShellCustomization\\assets\\icons8-powershell-96-red.png",
+        "icon": "C:/Users/jakelly/Documents/github/PowerShellCustomization/Assets/icons8-powershell-96-red.png",
         "name": "PowerShell",
         "source": "Windows.Terminal.PowershellCore"
       },
