@@ -33,7 +33,7 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
-          "background": "#FCA17D",
+          "background": "#ee573d",
           "properties": {
             "display_stash_count": true,
             "display_upstream_icon": true,
@@ -49,7 +49,7 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
-          "background": "#86BBD8",
+          "background": "#136d9e",
           "properties": {
             "prefix": " \uE718 "
           }
@@ -66,7 +66,7 @@
           "style": "plain",
           "foreground": "#FFFFFF",
           "properties": {
-            "text": "λ",
+            "text": "λ >",
             "prefix": ""
           }
         }
